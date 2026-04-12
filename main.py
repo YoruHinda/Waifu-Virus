@@ -1,6 +1,9 @@
 import os
 import requests
 
+def changeWallpaper():
+    imagePath = os.path.abspath()
+
 def downloadImages(folder = "links"):
     os.makedirs(folder, exist_ok = True)
 
@@ -24,3 +27,4 @@ def downloadImages(folder = "links"):
         print("salvo")
 
 downloadImages()
+changeWallpaper()
