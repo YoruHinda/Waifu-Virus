@@ -1,8 +1,10 @@
 import os
 import requests
+import ctypes
 
 def changeWallpaper():
     imagePath = os.path.abspath()
+    ctypes.windll.user32.SystemParametersInfoW(20, 0, imagePath, 3)
 
 def downloadImages(folder = "links"):
     os.makedirs(folder, exist_ok = True)
