@@ -2,7 +2,7 @@ import os
 import requests
 import ctypes
 
-imagesPath = os.path.join()
+imagesPath = os.path.join(os.path.expanduser("~"), "Desktop")
 
 def changeWallpaper(imagePath):
     imagePath = os.path.abspath()
