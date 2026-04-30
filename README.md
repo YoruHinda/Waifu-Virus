@@ -1,0 +1,1 @@
+<h1 textAlign="center">Waifu Virus</h1>
